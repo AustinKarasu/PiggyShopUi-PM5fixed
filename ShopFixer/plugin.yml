@@ -1,0 +1,5 @@
+name: PiggyShopUIFixer
+version: 1.0.0
+main: karasu\Main
+api: 5.0.0
+depend: [PiggyShopUI]

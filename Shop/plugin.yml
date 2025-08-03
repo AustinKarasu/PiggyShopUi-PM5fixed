@@ -1,0 +1,27 @@
+name: PiggyShopUI
+main: DaPigGuy\PiggyShopUI\PiggyShopUI
+version: 3.0.3
+api: 5.0.0
+load: POSTWORLD
+author: DaPigGuy,AustinKarasu
+softdepend: ["EconomyAPI", "BedrockEconomy"]
+website: "https://github.com/DaPigGuy/PiggyShopUI/"
+permissions:
+  piggyshopui:
+    default: false
+    description: "Allows usage of all PiggyShopUI features"
+  piggyshopui.category:
+    default: op
+    description: "Allows access to private categories"
+  piggyshopui.command:
+    default: op
+    description: "Allow usage of all PiggyShopUI commands"
+  piggyshopui.command.shop:
+    default: op
+    description: "Allow usage of the /shop commands"
+  piggyshopui.command.shop.edit:
+    default: op
+    description: "Allow usage of the /shop edit subcommand"
+  piggyshopui.command.shop.use:
+    default: true
+    description: "Allow usage of the /shop command"
